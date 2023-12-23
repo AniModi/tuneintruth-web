@@ -24,7 +24,7 @@ const Articles = () => {
 
   useEffect(() => {
     async function fetchArticles() {
-      const res = await fetch("http://localhost:5000/api/fetch-news", {
+      const res = await fetch("https://simple-backend-0b6s.onrender.com/api/fetch-news", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
